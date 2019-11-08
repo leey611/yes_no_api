@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+  	
+    <div class="cursor">
+    	<input  type="text" placeholder="Ask: yes or no?" size="40" id="myInput" onkeyup="showBtn(this.value)">
+      <i></i>
+   </div>
+   
+   <div class="buttonRow">
+      <input type="button" value="Yes" class="button"id="yes-button" onclick="window.location.href='yesno.html'">
+      <input type="button" value="No" class="button" id="no-button" onclick="window.location.href='error.html'">
+  	</div>
+  	<script src="script.js"></script>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
